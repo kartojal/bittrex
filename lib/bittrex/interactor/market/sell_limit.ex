@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Market.SellLimit do
+defmodule ExBittrex.Interactor.Market.SellLimit do
   @moduledoc false
 
   use Bittrex.Interactor

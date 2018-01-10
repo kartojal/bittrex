@@ -1,4 +1,4 @@
-defmodule Bittrex do
+defmodule ExBittrex do
   @moduledoc """
   Contains a functions for credentials and commo utility functions.
   """

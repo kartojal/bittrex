@@ -1,4 +1,4 @@
-defmodule Bittrex.Payment do
+defmodule ExBittrex.Payment do
   alias Bittrex.{Payment, Currency}
 
   defstruct [

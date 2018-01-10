@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.OrderBook.GetOrderBook do
+defmodule ExBittrex.Interactor.OrderBook.GetOrderBook do
   @moduledoc false
 
   use Bittrex.Interactor

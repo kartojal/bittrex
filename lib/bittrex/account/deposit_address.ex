@@ -1,4 +1,4 @@
-defmodule Bittrex.Account.DepositAddress do
+defmodule ExBittrex.Account.DepositAddress do
   alias Bittrex.Currency
   alias Bittrex.Account.DepositAddress
 

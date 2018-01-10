@@ -1,4 +1,4 @@
-defmodule Bittrex.Account.AccountBalance do
+defmodule ExBittrex.Account.AccountBalance do
   alias Bittrex.Currency
   alias Bittrex.Account.AccountBalance
 

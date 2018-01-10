@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Order.CancelOrder do
+defmodule ExBittrex.Interactor.Order.CancelOrder do
   @moduledoc false
 
   use Bittrex.Interactor

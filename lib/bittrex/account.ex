@@ -1,4 +1,4 @@
-defmodule Bittrex.Account do
+defmodule ExBittrex.Account do
   alias Bittrex.Interactor.Account.{
     GetBalances,
     GetBalance,

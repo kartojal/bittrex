@@ -1,4 +1,4 @@
-defmodule Bittrex.Order.OrderStatus do
+defmodule ExBittrex.Order.OrderStatus do
   alias Bittrex.Order
   alias Bittrex.Order.OrderStatus
 

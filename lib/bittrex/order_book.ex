@@ -1,4 +1,4 @@
-defmodule Bittrex.OrderBook do
+defmodule ExBittrex.OrderBook do
   alias Bittrex.Interactor.OrderBook.{GetOrderBook}
   alias Bittrex.{Order, OrderBook}
 

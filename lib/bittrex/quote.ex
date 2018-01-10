@@ -1,4 +1,4 @@
-defmodule Bittrex.Quote do
+defmodule ExBittrex.Quote do
   alias Bittrex.{Quote, Market}
   alias Bittrex.Interactor.Quote.{GetQuote}
 

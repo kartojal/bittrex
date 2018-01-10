@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.MarketSummary.GetMarketSummary do
+defmodule ExBittrex.Interactor.MarketSummary.GetMarketSummary do
   @moduledoc false
 
   use Bittrex.Interactor

@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Account.GetDepositAddress do
+defmodule ExBittrex.Interactor.Account.GetDepositAddress do
   @moduledoc false
 
   use Bittrex.Interactor

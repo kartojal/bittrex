@@ -1,4 +1,4 @@
-defmodule Bittrex.Mixfile do
+defmodule ExBittrex.Mixfile do
   use Mix.Project
 
   @name :bittrex
@@ -12,7 +12,7 @@ defmodule Bittrex.Mixfile do
 
   def project do
     [
-      name: "Bittrex",
+      name: "ExBittrex",
       description: @description,
       app: @name,
       version: @version,

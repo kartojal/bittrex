@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Account.GetBalances do
+defmodule ExBittrex.Interactor.Account.GetBalances do
   @moduledoc false
 
   use Bittrex.Interactor

@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Market.GetMarketHistory do
+defmodule ExBittrex.Interactor.Market.GetMarketHistory do
   @moduledoc false
 
   use Bittrex.Interactor

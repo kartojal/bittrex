@@ -1,4 +1,4 @@
-defmodule Bittrex.MarketSummary do
+defmodule ExBittrex.MarketSummary do
   alias Bittrex.{HourStatus, Quote, Market, MarketSummary}
 
   alias Bittrex.Interactor.MarketSummary.{

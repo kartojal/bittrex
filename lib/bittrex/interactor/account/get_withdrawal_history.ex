@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Account.GetWithdrawalHistory do
+defmodule ExBittrex.Interactor.Account.GetWithdrawalHistory do
   @moduledoc false
 
   use Bittrex.Interactor

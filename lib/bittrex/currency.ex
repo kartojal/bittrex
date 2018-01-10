@@ -1,4 +1,4 @@
-defmodule Bittrex.Currency do
+defmodule ExBittrex.Currency do
   alias Bittrex.Currency
   alias Bittrex.Interactor.Currency.{GetCurrencies}
 

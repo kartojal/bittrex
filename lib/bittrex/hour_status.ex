@@ -1,3 +1,3 @@
-defmodule Bittrex.HourStatus do
+defmodule ExBittrex.HourStatus do
   defstruct [:lowest, :highest]
 end

@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Account.Withdraw do
+defmodule ExBittrex.Interactor.Account.Withdraw do
   @moduledoc false
 
   use Bittrex.Interactor

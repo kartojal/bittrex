@@ -1,4 +1,4 @@
-defmodule Bittrex.Order do
+defmodule ExBittrex.Order do
   alias Bittrex.Interactor.Order.{CancelOrder}
   alias Bittrex.Order.{OrderStatus, OrderCondition, TradeMethod}
   alias Bittrex.{Order, Market}

@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Market.GetMarkets do
+defmodule ExBittrex.Interactor.Market.GetMarkets do
   @moduledoc false
 
   use Bittrex.Interactor

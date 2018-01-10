@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Account.GetOrder do
+defmodule ExBittrex.Interactor.Account.GetOrder do
   @moduledoc false
 
   use Bittrex.Interactor

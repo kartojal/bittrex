@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Currency.GetCurrencies do
+defmodule ExBittrex.Interactor.Currency.GetCurrencies do
   @moduledoc false
 
   use Bittrex.Interactor

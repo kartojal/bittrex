@@ -1,4 +1,4 @@
-defmodule BittrexTest.HttpRequestTest do
+defmodule ExBittrexTest.HttpRequestTest do
   use ExUnit.Case
   alias Bittrex.HttpRequest
 

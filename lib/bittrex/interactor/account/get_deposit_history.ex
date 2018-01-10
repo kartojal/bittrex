@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor.Account.GetDepositHistory do
+defmodule ExBittrex.Interactor.Account.GetDepositHistory do
   @moduledoc false
 
   use Bittrex.Interactor

@@ -1,4 +1,4 @@
-defmodule Bittrex.Interactor do
+defmodule ExBittrex.Interactor do
   @moduledoc false
 
   defmacro __using__(_) do

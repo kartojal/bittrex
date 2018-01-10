@@ -1,4 +1,4 @@
-defmodule Bittrex.Market do
+defmodule ExBittrex.Market do
   alias Bittrex.{Market, Currency}
 
   alias Bittrex.Interactor.Market.{

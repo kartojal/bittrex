@@ -1,4 +1,4 @@
-defmodule Bittrex.Client do
+defmodule ExBittrex.Client do
   @moduledoc false
 
   alias Bittrex.HttpRequest
