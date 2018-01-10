@@ -1,7 +1,7 @@
 defmodule ExBittrex.Order do
-  alias Bittrex.Interactor.Order.{CancelOrder}
-  alias Bittrex.Order.{OrderStatus, OrderCondition, TradeMethod}
-  alias Bittrex.{Order, Market}
+  alias ExBittrex.Interactor.Order.{CancelOrder}
+  alias ExBittrex.Order.{OrderStatus, OrderCondition, TradeMethod}
+  alias ExBittrex.{Order, Market}
 
   defstruct [
     :id,
@@ -37,7 +37,7 @@ defmodule ExBittrex.Order do
       id: get_order_id(item),
       price: get_price(item),
       type: String.upcase(type),
-      traded_at: Bittrex.format_datetime(item["TimeStamp"]),
+      traded_at: ExBittrex.format_datetime(item["TimeStamp"]),
       quantity: %{
         value: item["Quantity"],
         remaining: item["QuantityRemaining"]

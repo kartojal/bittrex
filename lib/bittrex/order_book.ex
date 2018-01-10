@@ -1,6 +1,6 @@
 defmodule ExBittrex.OrderBook do
-  alias Bittrex.Interactor.OrderBook.{GetOrderBook}
-  alias Bittrex.{Order, OrderBook}
+  alias ExBittrex.Interactor.OrderBook.{GetOrderBook}
+  alias ExBittrex.{Order, OrderBook}
 
   defstruct [:buys, :sells]
 

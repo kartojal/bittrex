@@ -1,6 +1,6 @@
 defmodule ExBittrexTest.HttpRequestTest do
   use ExUnit.Case
-  alias Bittrex.HttpRequest
+  alias ExBittrex.HttpRequest
 
   test "process_url/1" do
     url = HttpRequest.process_url("/test")

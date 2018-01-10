@@ -1,5 +1,5 @@
 defmodule ExBittrex.MarketHistory do
-  alias Bittrex.{MarketHistory, Order}
+  alias ExBittrex.{MarketHistory, Order}
 
   defstruct [:id, :order]
 

@@ -1,5 +1,5 @@
 defmodule ExBittrex.Order.TradeMethod do
-  alias Bittrex.Order.TradeMethod
+  alias ExBittrex.Order.TradeMethod
 
   defstruct [:code]
 

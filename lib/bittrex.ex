@@ -4,11 +4,11 @@ defmodule ExBittrex do
   """
 
   @doc """
-  Get the credentials of Bittrex.
+  Get the credentials of ExBittrex.
   """
   @spec credentials() :: keyword
   def credentials do
-    Application.fetch_env!(:bittrex, :credentials)
+    Application.fetch_env!(:exbittrex, :credentials)
   end
 
   @doc """
@@ -49,7 +49,7 @@ defmodule ExBittrex do
   end
 
   @doc """
-  Format Bittrex date time to Elixir `t:NaiveDateTime.t/0`.
+  Format ExBittrex date time to Elixir `t:NaiveDateTime.t/0`.
   """
   @spec format_datetime(nil) :: nil
   def format_datetime(nil), do: nil

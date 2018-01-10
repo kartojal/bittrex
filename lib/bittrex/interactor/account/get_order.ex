@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Account.GetOrder do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Order
+  use ExBittrex.Interactor
+  alias ExBittrex.Order
 
   def call(id) do
     :get

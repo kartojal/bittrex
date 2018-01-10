@@ -1,7 +1,7 @@
 defmodule ExBittrex.Market do
-  alias Bittrex.{Market, Currency}
+  alias ExBittrex.{Market, Currency}
 
-  alias Bittrex.Interactor.Market.{
+  alias ExBittrex.Interactor.Market.{
     GetMarkets,
     GetMarketHistory,
     BuyLimit,
@@ -47,7 +47,7 @@ defmodule ExBittrex.Market do
       name: item["MarketName"],
       minimum_trade: item["MinTradeSize"],
       active: item["IsActive"],
-      created_at: Bittrex.format_datetime(item["Created"]),
+      created_at: ExBittrex.format_datetime(item["Created"]),
       base_currency: %Currency{
         code: item["BaseCurrency"],
         name: item["BaseCurrencyLong"]

@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Account.GetDepositHistory do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Payment
+  use ExBittrex.Interactor
+  alias ExBittrex.Payment
 
   def call(currency) do
     :get

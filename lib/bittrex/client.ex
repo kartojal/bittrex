@@ -1,7 +1,7 @@
 defmodule ExBittrex.Client do
   @moduledoc false
 
-  alias Bittrex.HttpRequest
+  alias ExBittrex.HttpRequest
 
   def send(%HttpRequest{} = request) do
     request
@@ -13,7 +13,7 @@ defmodule ExBittrex.Client do
   end
 
   defp put_default_params(request) do
-    params = [apikey: Bittrex.api_key(), nonce: Bittrex.nonce()]
+    params = [apikey: ExBittrex.api_key(), nonce: ExBittrex.nonce()]
 
     HttpRequest.put_params(request, params)
   end
@@ -22,7 +22,7 @@ defmodule ExBittrex.Client do
     apisign =
       request
       |> HttpRequest.full_url()
-      |> Bittrex.get_api_sign()
+      |> ExBittrex.get_api_sign()
 
     HttpRequest.put_header(request, apisign: apisign)
   end

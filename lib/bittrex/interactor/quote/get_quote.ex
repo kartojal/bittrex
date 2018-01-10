@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Quote.GetQuote do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Quote
+  use ExBittrex.Interactor
+  alias ExBittrex.Quote
 
   def call(market_name) do
     :get

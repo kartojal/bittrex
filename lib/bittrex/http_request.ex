@@ -1,8 +1,8 @@
 defmodule ExBittrex.HttpRequest do
   @moduledoc false
 
-  @base_url Application.get_env(:bittrex, :base_url, "https://bittrex.com/api/")
-  @version Application.get_env(:bittrex, :version, "v1.1")
+  @base_url Application.get_env(:exbittrex, :base_url, "https://bittrex.com/api/")
+  @version Application.get_env(:exbittrex, :version, "v1.1")
 
   defstruct [:method, :url, :headers, :params]
 

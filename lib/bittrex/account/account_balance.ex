@@ -1,6 +1,6 @@
 defmodule ExBittrex.Account.AccountBalance do
-  alias Bittrex.Currency
-  alias Bittrex.Account.AccountBalance
+  alias ExBittrex.Currency
+  alias ExBittrex.Account.AccountBalance
 
   defstruct [:id, :currency, :balance, :available, :pending, :wallet, :requested]
 

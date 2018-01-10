@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Account.GetDepositAddress do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Account.DepositAddress
+  use ExBittrex.Interactor
+  alias ExBittrex.Account.DepositAddress
 
   def call(currency) do
     :get

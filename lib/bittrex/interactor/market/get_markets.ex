@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Market.GetMarkets do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Market
+  use ExBittrex.Interactor
+  alias ExBittrex.Market
 
   def call do
     :get

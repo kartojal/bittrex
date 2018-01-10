@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.OrderBook.GetOrderBook do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.{OrderBook}
+  use ExBittrex.Interactor
+  alias ExBittrex.{OrderBook}
 
   def call(market_name, type) do
     params = [market: market_name, type: type]

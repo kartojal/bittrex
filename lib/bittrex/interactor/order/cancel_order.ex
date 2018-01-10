@@ -1,7 +1,7 @@
 defmodule ExBittrex.Interactor.Order.CancelOrder do
   @moduledoc false
 
-  use Bittrex.Interactor
+  use ExBittrex.Interactor
 
   def call(order_id) do
     :get

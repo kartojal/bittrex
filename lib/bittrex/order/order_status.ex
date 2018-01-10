@@ -1,6 +1,6 @@
 defmodule ExBittrex.Order.OrderStatus do
-  alias Bittrex.Order
-  alias Bittrex.Order.OrderStatus
+  alias ExBittrex.Order
+  alias ExBittrex.Order.OrderStatus
 
   @opened "OPENED"
   @closed "CLOSED"
@@ -10,14 +10,14 @@ defmodule ExBittrex.Order.OrderStatus do
   def new(%{"Closed" => closed_at} = _order) do
     %OrderStatus{
       name: @closed,
-      at: Bittrex.format_datetime(closed_at)
+      at: ExBittrex.format_datetime(closed_at)
     }
   end
 
   def new(%{"Opened" => opened_at} = _order) do
     %OrderStatus{
       name: @opened,
-      at: Bittrex.format_datetime(opened_at)
+      at: ExBittrex.format_datetime(opened_at)
     }
   end
 

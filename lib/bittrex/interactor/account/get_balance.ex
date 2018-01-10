@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Account.GetBalance do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Account.AccountBalance
+  use ExBittrex.Interactor
+  alias ExBittrex.Account.AccountBalance
 
   def call(currency) do
     :get

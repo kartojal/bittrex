@@ -1,6 +1,6 @@
 defmodule ExBittrex.Quote do
-  alias Bittrex.{Quote, Market}
-  alias Bittrex.Interactor.Quote.{GetQuote}
+  alias ExBittrex.{Quote, Market}
+  alias ExBittrex.Interactor.Quote.{GetQuote}
 
   defstruct [:market, :bid, :ask, :last]
 

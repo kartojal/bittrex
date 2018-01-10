@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.Currency.GetCurrencies do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.Currency
+  use ExBittrex.Interactor
+  alias ExBittrex.Currency
 
   def call do
     :get

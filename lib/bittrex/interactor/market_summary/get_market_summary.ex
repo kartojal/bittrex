@@ -1,8 +1,8 @@
 defmodule ExBittrex.Interactor.MarketSummary.GetMarketSummary do
   @moduledoc false
 
-  use Bittrex.Interactor
-  alias Bittrex.MarketSummary
+  use ExBittrex.Interactor
+  alias ExBittrex.MarketSummary
 
   def call(market_name) do
     :get

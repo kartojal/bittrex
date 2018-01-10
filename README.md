@@ -1,23 +1,23 @@
-# Bittrex
+# ExBittrex
 
 ## Installation
 
-Add `bittrex` to your list of dependencies in `mix.exs`:
+Add `exbittrex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:bittrex, "~> 0.5"}]
+  [{:exbittrex, "~> 0.5"}]
 end
 ```
 
 ## Usage
 
-Add credentials from Bittrex. To manage your API keys please goto
-`Settings -> Manage API Keys` on Bittrex.
+Add credentials from ExBittrex. To manage your API keys please goto
+`Settings -> Manage API Keys` on ExBittrex.
 
 ```elixir
 # config/config.exs
-config :bittrex,
+config :exbittrex,
   credentials: [
     api_key: "",
     api_secret: ""

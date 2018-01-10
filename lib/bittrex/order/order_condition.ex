@@ -1,5 +1,5 @@
 defmodule ExBittrex.Order.OrderCondition do
-  alias Bittrex.Order.OrderCondition
+  alias ExBittrex.Order.OrderCondition
 
   defstruct [:name, :value]
 

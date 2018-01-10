@@ -1,7 +1,7 @@
 defmodule ExBittrex.MarketSummary do
-  alias Bittrex.{HourStatus, Quote, Market, MarketSummary}
+  alias ExBittrex.{HourStatus, Quote, Market, MarketSummary}
 
-  alias Bittrex.Interactor.MarketSummary.{
+  alias ExBittrex.Interactor.MarketSummary.{
     GetMarketSummaries,
     GetMarketSummary
   }
@@ -33,8 +33,8 @@ defmodule ExBittrex.MarketSummary do
 
     %MarketSummary{
       market: market,
-      created_at: Bittrex.format_datetime(item["Created"]),
-      snapshot_at: Bittrex.format_datetime(item["TimeStamp"]),
+      created_at: ExBittrex.format_datetime(item["Created"]),
+      snapshot_at: ExBittrex.format_datetime(item["TimeStamp"]),
       previous_day: item["PrevDay"],
       last_hour_status: %HourStatus{
         lowest: item["Low"],

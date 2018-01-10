@@ -3,8 +3,8 @@ defmodule ExBittrex.Interactor do
 
   defmacro __using__(_) do
     quote do
-      alias Bittrex.HttpRequest
-      alias Bittrex.Client
+      alias ExBittrex.HttpRequest
+      alias ExBittrex.Client
     end
   end
 end

@@ -1,5 +1,5 @@
 defmodule ExBittrex.Payment do
-  alias Bittrex.{Payment, Currency}
+  alias ExBittrex.{Payment, Currency}
 
   defstruct [
     :id,
@@ -20,7 +20,7 @@ defmodule ExBittrex.Payment do
       amount: item["Amount"],
       wallet: item["Address"],
       invalid_wallet: item["InvalidAddress"],
-      opened_at: Bittrex.format_datetime(item["Opened"]),
+      opened_at: ExBittrex.format_datetime(item["Opened"]),
       authorized: item["Authorized"],
       pending: item["PendingPayment"],
       canceled: item["Canceled"],

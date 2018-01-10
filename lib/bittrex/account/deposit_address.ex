@@ -1,6 +1,6 @@
 defmodule ExBittrex.Account.DepositAddress do
-  alias Bittrex.Currency
-  alias Bittrex.Account.DepositAddress
+  alias ExBittrex.Currency
+  alias ExBittrex.Account.DepositAddress
 
   defstruct [:currency, :wallet]
 

@@ -1,6 +1,6 @@
 defmodule ExBittrex.Currency do
-  alias Bittrex.Currency
-  alias Bittrex.Interactor.Currency.{GetCurrencies}
+  alias ExBittrex.Currency
+  alias ExBittrex.Interactor.Currency.{GetCurrencies}
 
   defstruct [
     :code,
